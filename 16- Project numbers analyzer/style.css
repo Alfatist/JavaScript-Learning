@@ -1,0 +1,30 @@
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+  display: grid;
+}
+
+section {
+  background-color: white;
+  border-radius: 10%;
+  width: fit-content;
+  min-width: 300px;
+  text-align: justify;
+  margin: auto;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+}
+
+footer {
+  padding: 20px;
+}
+
+div {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+select {
+  min-width: 190px;
+}

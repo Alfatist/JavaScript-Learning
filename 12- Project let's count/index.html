@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Count</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Let's count</h1>
+    </header>
+    <section>
+      <div>
+        <label for="start">Start: </label>
+        <input type="number" name="start" id="start" /> <br />
+        <br />
+        <label for="end">End: </label>
+        <input type="number" name="end" id="end" /> <br />
+        <br />
+        <label for="step">Steps: </label>
+        <input type="number" name="steps" id="steps" /> <br />
+        <br />
+        <input type="submit" class="submit" value="Count" onclick="count()" />
+
+        <p id="count">Counting...</p>
+      </div>
+    </section>
+    <footer>&copy; Alfatist</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

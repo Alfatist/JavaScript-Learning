@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Age checker</h1>
+    <section>
+      <div>
+        <form action="/action_page.php" method="get">
+          <label for="birth">Birth year: </label>
+          <input type="date" id="birth" name="birth" /><br /><br />
+          <label for="gender">Gender:</label>
+          <input
+            type="radio"
+            class="radioButton"
+            id="male"
+            name="radioButton"
+          />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            class="radioButton"
+            id="female"
+            name="radioButton"
+          />
+          <label for="female">female</label> <br />
+          <input type="submit" value="Verify" id="submit" />
+        </form>
+        <p id="result">Fill in the information above and see the result!</p>
+        <img src="" alt="" />
+      </div>
+    </section>
+    <footer><p>&copy; Alfatist</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

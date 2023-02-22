@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DETRAN</title>
+    <!-- brazilian clone of DMV-->
+  </head>
+  <body>
+    <h1>Ticket system</h1>
+    Car's speed: <input type="number" name="txtspe" id="txtspe" /> km/h
+    <input type="button" value="Verify" onclick="calculate()" />
+    <div id="res"></div>
+    <script>
+      function calculate() {
+        let txts = window.document.querySelector("input#txtspe");
+        let res = window.document.querySelector("div#res");
+        let vel = Number(txts.value);
+        res.innerHTML = `<p>Your car's speed is <strong>${vel}Km/h</strong></p>`;
+        if (vel > 60) {
+          res.innerHTML += `<p>get your <strong>SPEED TICKET</strong></p>`;
+        }
+        res.innerHTML += `<p>Always drive wearing a seat belt!</p>`;
+      }
+    </script>
+  </body>
+</html>

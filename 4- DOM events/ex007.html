@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number sum</title>
+    <style>
+      body {
+        font: normal 18apt Arial;
+      }
+      input {
+        font: normal 18pt Arial;
+        width: 100px;
+      }
+      div#res {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Input 2 values</h1>
+    <input type="number" name="txtn1" id="txtn1" />
+    <input type="number" name="txtn2" id="txtn2" />
+    <input type="button" value="Sum" onclick="sum()" />
+    <div id="res">Result</div>
+
+    <script>
+      function sum() {
+        let tn1 = window.document.getElementById("txtn1");
+        let tn2 = window.document.querySelector("input#txtn2");
+        let res = window.document.querySelector("div#res");
+        let n1 = Number(tn1.value);
+        let n2 = Number(tn2.value);
+        let s = n1 + n2;
+        res.innerHTML = n1 + "+" + n2 + "=" + s;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+  display: grid;
+  color: aliceblue;
+}
+
+section {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 3%;
+  width: fit-content;
+  text-align: justify;
+  margin: auto;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+}
+
+div {
+  padding: 30px 300px 10px 10px;
+}
+
+input.submit:hover {
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data manipulation</title>
+    <style>
+      body {
+        font: normal 20pt Arial;
+      }
+    </style>
+  </head>
+  <body style="background-color: lightpink">
+    <script>
+      let name = window.prompt("What is your name?");
+      document.writeln(
+        `<h1>Hi ${name}! Your name has ${name.length} letters.</h1>`
+      );
+      document.writeln(
+        `<h2>Your name in capital is ${name.toUpperCase()} </h2>`
+      );
+      document.writeln(`<h2>Your name in lower is ${name.toLowerCase()}</h2>`);
+    </script>
+  </body>
+</html>
