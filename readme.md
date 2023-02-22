@@ -1,4 +1,4 @@
----
+----
 
 How I learned JS // 02/22/2023 Course taken: https://youtu.be/BXqUH86F-kA (Curso em Video)
 
