@@ -122,6 +122,7 @@ An introduction to Objects in JS.
 EXTRA PROJECTS::
 
 Guess the colour name
+
 Model
 
 
