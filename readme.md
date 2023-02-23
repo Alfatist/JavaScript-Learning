@@ -7,7 +7,7 @@ As a result, now I can program a website, and it sure
 helps me programming anything. All projects are 
 independents of each other.
 
-There were classes purely theoretical, such as JS history, 
+There were classes purely theoretical, such as JS history. 
 Here, however, I focused on practice.
 
 Guess the colour             |  Day's time          | number analyzer |
@@ -123,6 +123,8 @@ EXTRA PROJECTS::
 
 Guess the colour name
 Model
+
+
 
 Next steps: 
 Do many exercises in JS; go to some framework. 
