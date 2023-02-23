@@ -10,6 +10,10 @@ independents of each other.
 There were classes purely theoretical, such as JS history, 
 Here, however, I focused on practice.
 
+Guess the colour             |  Day's time          | number analyzer |
+:-------------------------:|:-------------------------:|:---------------:
+![](https://media.discordapp.net/attachments/1036757367657865220/1078122613626372116/guess_the_colour.jpeg?width=499&height=497)  |  ![](https://media.discordapp.net/attachments/1036757367657865220/1078122613102096384/days_time.gif) | ![](https://media.discordapp.net/attachments/1036757367657865220/1078122612523274250/number_analyzer.gif?width=495&height=497)
+
 There are the learn order:
 
 1- First steps
@@ -121,4 +125,4 @@ Guess the colour name
 Model
 
 Next steps: 
-Do many exercises in JS; Never stop to study. 
+Do many exercises in JS; go to some framework. 
