@@ -110,7 +110,7 @@ A bit of functions in JS.
 16- Project numbers analyzer
 
 The coolest project, and the one I learned the most.
-I did like, 70% of project for myself; like, 70%
+I did 70% of project for myself; like, 70%
 I wanted to do, and 30% the teacher asked to do.
 
 
